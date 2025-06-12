@@ -3,30 +3,69 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import img from "../assets/pimg.png"; // Adjust the path as necessary
 
 const skillsUsingNow = [
-  { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-  { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-  { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-  { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
-  { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-  { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" }, // ✅ Added Tailwind
+  {
+    name: "HTML5",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS3",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    name: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "Bootstrap",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+  },
+  {
+    name: "Git",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    name: "Tailwind",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+  },
+  {
+    name: "Next.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  }, // ✅ Added Next.js
 ];
 
-
 const skillsLearning = [
-  { name: "NodeJS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-  { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-  { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+  {
+    name: "NodeJS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+  },
+  {
+    name: "MySQL",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+  },
+  {
+    name: "MongoDB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+  },
+  {
+    name: "TypeScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "Express.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+  },
 ];
 
 const LandingPage = () => {
   return (
-    <div className="flex flex-col">
-      <div className="min-h-screen bg-gray-100">
+    <div className="flex flex-col bg-gray-100">
+      <div className="min-h-screen bg-gray-100 mb-0">
         {/* Hero Section */}
-        <div className="relative grid grid-cols-1 md:grid-cols-2 min-h-[80vh] overflow-hidden">
+        <div className="relative grid grid-cols-1 md:grid-cols-2 min-h-[80vh] bottom-0 overflow-hidden">
           {/* Left Panel */}
           <div className="flex flex-col justify-center items-start px-10 py-20 bg-gray-100 z-10">
             <p className="text-lg font-medium">Hi, I am</p>
@@ -62,55 +101,80 @@ const LandingPage = () => {
 
       {/* About Me Section */}
       <div className="bg-black text-white px-10 py-8">
-        <h2 className="text-3xl font-bold text-center px-6 py-2 mb-8">About Me</h2>
+        <h2 className="text-3xl font-bold text-center px-6 py-2 mb-8">
+          About Me
+        </h2>
         <p className=" text-l text-center">
-          I'm a passionate Front-End Developer with many years of experience
-          building modern, responsive, and user-friendly web applications. I
-          specialize in turning complex UI designs into clean, scalable code
-          using HTML, CSS, JavaScript, React, TypeScript, and Next.js. I care
-          deeply about performance, accessibility, and creating seamless user
-          experiences across devices. Whether collaborating with teams or
-          working independently, I bring creativity, attention to detail, and a
-          commitment to continuous learning in every project I take on.
+          I’m a seasoned front-end developer with many years of experience
+          creating web interfaces that don’t just look good — they feel right.
+          My passion lies in transforming ideas into clean, interactive, and
+          intuitive digital experiences that users genuinely enjoy. Whether it's
+          building scalable React applications, optimizing performance, or
+          obsessing over pixel-perfect designs, I thrive in the space where
+          design meets code. Over the years, I’ve honed my skills in HTML5,
+          CSS3, JavaScript, TypeScript, React, Tailwind CSS, and modern tooling
+          like Vite and Webpack. I’m a big believer in writing accessible,
+          maintainable code and collaborating closely with designers and
+          back-end teams to bring ideas to life with precision. From startups to
+          more mature products, I’ve helped teams create mobile-first,
+          user-centric interfaces that drive engagement and deliver real value.
+          I’m always learning, always refining, and always striving to push the
+          limits of what’s possible on the front end — not just to meet
+          expectations, but to exceed them.
         </p>
       </div>
 
       {/* Skills Section */}
-   <div className="bg-gray-100 min-h-screen flex flex-col items-center p-10">
-      <h1 className="text-3xl font-bold border-2 border-black px-6 py-2 mb-8">SKILLS</h1>
+      <div className="bg-gray-100 min-h-screen flex flex-col items-center p-10">
+        <h1 className="text-3xl font-bold border-2 border-black px-6 py-2 mb-8">
+          SKILLS
+        </h1>
 
-      <div className="w-full max-w-4xl">
-        <h2 className="text-xl font-semibold mb-4">USING NOW:</h2>
-        <div className="grid grid-cols-4 gap-6 mb-10">
-          {skillsUsingNow.map((skill) => (
-            <div key={skill.name} className="flex flex-col items-center text-sm">
-              <img src={skill.icon} alt={skill.name} className="h-12 mb-2" />
-              <span>{skill.name}</span>
-            </div>
-          ))}
-        </div>
+        <div className="w-full max-w-4xl">
+          <h2 className="text-xl font-semibold mb-4">USING NOW:</h2>
+          <div className="grid grid-cols-3 gap-6 mb-10 md:grid-cols-4">
+            {skillsUsingNow.map((skill) => (
+              <div
+                key={skill.name}
+                className="flex flex-col items-center text-sm"
+              >
+                <img src={skill.icon} alt={skill.name} className="h-12 mb-2" />
+                <span>{skill.name}</span>
+              </div>
+            ))}
+          </div>
 
-        <h2 className="text-xl font-semibold mb-4">LEARNING:</h2>
-        <div className="grid grid-cols-4 gap-6">
-          {skillsLearning.map((skill) => (
-            <div key={skill.name} className="flex flex-col items-center text-sm">
-              <img src={skill.icon} alt={skill.name} className="h-12 mb-2" />
-              <span>{skill.name}</span>
-            </div>
-          ))}
+          <h2 className="text-xl font-semibold mb-4">LEARNING:</h2>
+          <div className="grid grid-cols-4 gap-6">
+            {skillsLearning.map((skill) => (
+              <div
+                key={skill.name}
+                className="flex flex-col items-center text-sm"
+              >
+                <img src={skill.icon} alt={skill.name} className="h-12 mb-2" />
+                <span>{skill.name}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
 
       {/* My Work Section */}
-      <div className="bg-gray-100 text-black px-10 py-8">
+      <div className="bg-gray-100 text-black px-10 py-8 ms-8">
         <h2 className="text-2xl font-bold text-center mb-3">My Works</h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 ms-8">
           <li>Villa Real Estate Website</li>
           <li>Educa E-learning Platform</li>
           <li>Ease Banking App</li>
         </ul>
       </div>
+
+      {/* Footer Section */}
+      <footer className="bg-black text-white py-6">
+        <div className="container mx-auto text-center">
+          <p>&copy; {new Date().getFullYear()}</p>
+        </div>
+      </footer>
     </div>
   );
 };

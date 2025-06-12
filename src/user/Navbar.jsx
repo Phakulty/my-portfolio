@@ -7,8 +7,8 @@ const Navbar = () => {
         <nav className='space-x-4'>
           <a href="/" className='hover:text-gray-400'>Home</a>
           <a href="/about" className='hover:text-gray-400 m-4'>About</a>
-          <a href="/about" className='hover:text-gray-400 m-4'>Skills</a>
-          <a href="/about" className='hover:text-gray-400 m-4'>Portfolio</a>
+          <a href="/skills" className='hover:text-gray-400 m-4'>Skills</a>
+          <a href="/works" className='hover:text-gray-400 m-4'>My Works</a>
           <a href="/contact" className='hover:text-gray-400 m-4'>Contact Me</a>
         </nav>
 
