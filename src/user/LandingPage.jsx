@@ -60,6 +60,13 @@ const skillsLearning = [
   },
 ];
 
+const myWorks = [
+    { title: "Villa Real Estate Website", link: "#" },
+    { title: "Educa E-learning Platform", link: "https://educa-lac.vercel.app" },
+    { title: "Ease Banking App", link: "https://ease-bank.vercel.app" },
+
+];
+
 const LandingPage = () => {
   return (
     <div className="flex flex-col bg-gray-100">
@@ -126,7 +133,7 @@ const LandingPage = () => {
 
       {/* Skills Section */}
       <div className="bg-gray-100 min-h-screen flex flex-col items-center p-10">
-        <h1 className="text-3xl font-bold border-2 border-black px-6 py-2 mb-8">
+        <h1 className="text-3xl font-bold px-6 py-2 mb-8">
           SKILLS
         </h1>
 
@@ -160,13 +167,24 @@ const LandingPage = () => {
       </div>
 
       {/* My Work Section */}
-      <div className="bg-gray-100 text-black px-10 py-8 ms-8">
-        <h2 className="text-2xl font-bold text-center mb-3">My Works</h2>
-        <ul className="list-disc list-inside space-y-2 ms-8">
-          <li>Villa Real Estate Website</li>
-          <li>Educa E-learning Platform</li>
-          <li>Ease Banking App</li>
+      <div className=" bg-gray-100 flex flex-col p-10">
+        <h2 className="text-3xl text-center font-bold px-6 py-2 mb-8">My Works</h2>
+        <ul className="list-disc list-inside space-y-2 ms-8 justify-start">
+            {myWorks.map((work, index) => (
+              <li key={index}>
+                <a href={work.link} className="text-blue-500 hover:underline">
+                  {work.title}
+                </a>
+              </li>
+            ))}
         </ul>
+      </div>
+
+      <div className="bg-gray-100 flex items-center justify-center">
+         <h1 className="text-3xl text-center font-bold px-6 py-2 mb-8">
+          CONTACTS
+        </h1>
+
       </div>
 
       {/* Footer Section */}
