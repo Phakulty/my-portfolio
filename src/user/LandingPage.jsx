@@ -172,7 +172,7 @@ const LandingPage = () => {
         <ul className="list-disc list-inside space-y-2 ms-8 justify-start">
             {myWorks.map((work, index) => (
               <li key={index}>
-                <a href={work.link} className="text-blue-500 hover:underline">
+                <a href={work.link} target="_blank" className="text-blue-500 hover:underline">
                   {work.title}
                 </a>
               </li>
