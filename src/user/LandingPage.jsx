@@ -180,12 +180,6 @@ const LandingPage = () => {
         </ul>
       </div>
 
-      <div className="bg-gray-100 flex items-center justify-center">
-         <h1 className="text-3xl text-center font-bold px-6 py-2 mb-8">
-          CONTACTS
-        </h1>
-
-      </div>
 
       {/* Footer Section */}
       <footer className="bg-black text-white py-6">
