@@ -82,13 +82,13 @@ const LandingPage = () => {
             <p className="text-gray-600 mt-2">Front-end Developer</p>
             {/* Socials */}
             <div className="flex space-x-4 mt-6">
-              <a href="mailto:anthonymaky@gmail.com" className="p-3">
+              <a href="mailto:anthonymaky@gmail.com" target="_blank" className="p-3">
                 <FaEnvelope />
               </a>
-              <a href="https://github.com/Phakulty" className="p-3">
+              <a href="https://github.com/Phakulty" target="_blank" className="p-3">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/chukwuka-oyioha-34305b222/" className="p-3">
+              <a href="https://www.linkedin.com/in/chukwuka-oyioha-34305b222/" target="_blank" className="p-3">
                 <FaLinkedin />
               </a>
             </div>
