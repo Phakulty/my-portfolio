@@ -61,9 +61,10 @@ const skillsLearning = [
 ];
 
 const myWorks = [
-    { title: "Villa Real Estate Website", link: "https://villa-ashen.vercel.app" },
-    { title: "Educa E-learning Platform", link: "https://educa-lac.vercel.app" },
     { title: "Ease Banking App", link: "https://ease-bank.vercel.app" },
+    { title: "Educa E-learning Platform", link: "https://educa-lac.vercel.app" },
+    { title: "Villa Real Estate Website", link: "https://villa-ashen.vercel.app" },
+    
 
 ];
 
